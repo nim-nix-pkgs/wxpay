@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-wxpay-main.flake = false;
+  inputs.src-wxpay-main.ref   = "refs/heads/main";
   inputs.src-wxpay-main.owner = "lihf8515";
-  inputs.src-wxpay-main.ref   = "main";
   inputs.src-wxpay-main.repo  = "wxpay";
   inputs.src-wxpay-main.type  = "github";
   
